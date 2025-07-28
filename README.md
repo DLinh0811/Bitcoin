@@ -10,11 +10,11 @@ This repository contains a complete pipeline for Bitcoin price prediction using 
 ```
 bitcoin-price-prediction/
 ├── EDA.ipynb                  # Exploratory Data Analysis
-├── BTCUSDT\_1h.csv             # Original raw data
-├── BTCUSDT\_1h\_engineered.csv  # Feature-engineered data
-├── feature\_engineer.py        # Feature engineering script
-├── finetune.py                # Hyperparameter tuning script
-├── train.py                   # Model training and evaluation
+├── BTCUSDT_1h.csv             # Original raw data
+├── BTCUSDT_1h_engineered.csv  # Feature-engineered data
+├── Feature_engineer.py        # Feature engineering script
+├── Finetune.py                # Hyperparameter tuning script
+├── Train.py                   # Model training and evaluation
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
 ```
@@ -68,21 +68,21 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
    Generate the feature-engineered dataset:
 
    ```bash
-   python feature_engineer.py
+   python Feature_engineer.py
    ```
 
 2. **Hyperparameter Tuning** *(Optional)*
    Run the grid search:
 
    ```bash
-   python finetune.py
+   python Finetune.py
    ```
 
 3. **Model Training and Evaluation**
    Train and evaluate the selected model:
 
    ```bash
-   python train.py
+   python Train.py
    ```
 
 4. **Exploratory Data Analysis**
