@@ -1,6 +1,3 @@
-Here's a refined version of your `README.md` file with improved grammar, formatting consistency, and clarity—ready to copy and paste:
-
-
 # 📈 Bitcoin Price Prediction Using Deep Learning RNN Models
 
 This project implements and compares three Recurrent Neural Network (RNN) architectures—Vanilla RNN, LSTM, and GRU—for predicting Bitcoin prices using technical indicators and engineered features.
